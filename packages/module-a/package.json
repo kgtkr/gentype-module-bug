@@ -1,0 +1,22 @@
+{
+  "name": "module-a",
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "gentype": "^4.1.0",
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "@rescript/std": "^9.1.3"
+  },
+  "scripts": {
+    "build": "rescript build -with-deps"
+  },
+  "files": [
+    "bsconfig.json",
+    "src/**/*.res",
+    "src/**/*.resi",
+    "src/**/*.bs.js",
+    "src/**/*.gen.ts"
+  ]
+}
